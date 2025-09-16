@@ -58,10 +58,3 @@ Each topic is organized into focused modules containing:
 3. Attempt the practice exercises
 4. Check your solutions against provided answers
 5. Move to progressively challenging exercises
-
-### For Teachers:
-1. Use the concept explanations as teaching material
-2. Assign exercises based on student level
-3. Utilize the test cases for automated grading
-
-## 📝 Example Module Structure
