@@ -2,7 +2,7 @@
 
 A comprehensive learning repository that combines JavaScript concept explanations with hands-on coding exercises. Master JavaScript through understanding theory and applying it immediately with practical exercises.
 
-## 📚 Structure
+## 📚 Structure:
 
 Each topic is organized into focused modules containing:
 
