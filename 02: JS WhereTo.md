@@ -9,8 +9,8 @@ In HTML, JavaScript code is written between `<script>` and `</script>` tags.
   document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
 
-Placement Options
-1. In the <head> Section
+# Placement Options
+## 1. In the <head> Section
 html
 <!DOCTYPE html>
 <html>
@@ -26,7 +26,7 @@ html
     <button onclick="changeText()">Click me</button>
 </body>
 </html>
-2. In the <body> Section (Recommended)
+# 2. In the <body> Section (Recommended)
 html
 <!DOCTYPE html>
 <html>
@@ -41,10 +41,10 @@ html
     </script>
 </body>
 </html>
-Performance Tip: Place scripts at the bottom of the <body> for faster page loading.
+## Performance Tip: Place scripts at the bottom of the <body> for faster page loading.
 
-External JavaScript Files
-Create separate .js files for better organization:
+# External JavaScript Files
+## Create separate .js files for better organization:
 
 script.js:
 
