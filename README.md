@@ -18,7 +18,7 @@ Each topic is organized into focused modules containing:
 - Real-world application projects
 - Challenge problems for deeper understanding
 
-## 🗂️ Topics Covered
+## 🗂️ Topics Covered:
 
 ### Core JavaScript
 1. **Variables & Data Types**
