@@ -1,4 +1,4 @@
-# 1. In the <head> Section
+# 1. In the head Section
 ```html
 <!DOCTYPE html>
 <html>
