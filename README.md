@@ -12,7 +12,7 @@ Each topic is organized into focused modules containing:
 - Visual diagrams where helpful
 - Common pitfalls and best practices
 
-### Practice Exercises
+### Practice Exercises:
 - Graduated difficulty exercises (beginner to advanced)
 - Test-driven development practice
 - Real-world application projects
