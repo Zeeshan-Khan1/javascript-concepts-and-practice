@@ -1,4 +1,4 @@
-# JavaScript Concepts & Practice 🧠 + 💻
+# JavaScript Concepts & Practice
 
 A comprehensive learning repository that combines JavaScript concept explanations with hands-on coding exercises. Master JavaScript through understanding theory and applying it immediately with practical exercises.
 
