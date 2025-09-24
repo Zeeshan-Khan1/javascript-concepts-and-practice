@@ -1,4 +1,4 @@
-# JavaScript Datatypes
+# JavaScript Datatypes:
 
 JavaScript variables can hold **8 different datatypes**.
 
