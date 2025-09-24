@@ -4,7 +4,7 @@ JavaScript variables can hold **8 different datatypes**.
 
 ---
 
-## 📌 List of Datatypes
+## 📌 List of Datatypes:
 | Type       | Description                                    |
 |------------|--------------------------------|
 | **String**   | A sequence of characters inside quotes |
