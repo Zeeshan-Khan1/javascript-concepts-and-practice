@@ -13,6 +13,7 @@ Instead of writing code repeatedly:
 text += cars[0] + "<br>";
 text += cars[1] + "<br>";
 text += cars[2] + "<br>";
+```
 
 You can use a loop:
 
