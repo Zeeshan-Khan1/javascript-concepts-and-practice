@@ -16,7 +16,6 @@ text += cars[2] + "<br>";
 
 You can use a loop:
 
-
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
