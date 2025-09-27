@@ -16,14 +16,14 @@ text += cars[2] + "<br>";
 ```
 
 You can use a loop:
-
+```
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
-1. The for Loop
+```
+### 1. The for Loop
 The for statement creates a loop with 3 expressions:
-
-
+```
 for (expr1; expr2; expr3) {
   // code block
 }
@@ -32,9 +32,9 @@ expr1 → runs once before the loop starts
 expr2 → condition checked before each iteration
 
 expr3 → executed after every iteration
-
+```
 Example
-
+```
 for (let i = 0; i < 5; i++) {
   console.log("The number is " + i);
 }
@@ -43,9 +43,9 @@ expr1: initializes (let i = 0)
 expr2: condition (i < 5)
 
 expr3: increment (i++)
-
+```
 Loop Scope
-
+```
 let i = 5;
 
 for (i = 0; i < 10; i++) {
@@ -60,12 +60,12 @@ for (let i = 0; i < 10; i++) {
 }
 // Here i is still 5
 Declaring with let inside the loop makes i scoped to that loop.
-
-2. The while Loop
+```
+### 2. The while Loop
 Runs as long as the condition is true.
 
 Syntax
-
+```
 while (condition) {
   // code block
 }
@@ -76,13 +76,14 @@ while (i < 10) {
   console.log("The number is " + i);
   i++;
 }
+```
 ⚠️ If you forget to update the variable, the loop can run forever.
 
-3. The do...while Loop
+### 3. The do...while Loop
 Executes at least once, even if the condition is false.
 
 Syntax
-
+```
 do {
   // code block
 } while (condition);
@@ -94,9 +95,9 @@ do {
   i++;
 } while (i < 10);
 ✅ Use:
+```
+- for → when you know the number of iterations.
 
-for → when you know the number of iterations.
+- while → when you don’t know how many times to run.
 
-while → when you don’t know how many times to run.
-
-do...while → when you want the loop to run at least once.
+- do...while → when you want the loop to run at least once.
