@@ -16,14 +16,14 @@ text += cars[2] + "<br>";
 ```
 
 You can use a loop:
-```
+```js
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
 ```
 ### 1. The for Loop
 The for statement creates a loop with 3 expressions:
-```
+```js
 for (expr1; expr2; expr3) {
   // code block
 }
@@ -45,7 +45,7 @@ expr2: condition (i < 5)
 expr3: increment (i++)
 ```
 Loop Scope
-```
+```js
 let i = 5;
 
 for (i = 0; i < 10; i++) {
@@ -65,7 +65,7 @@ Declaring with let inside the loop makes i scoped to that loop.
 Runs as long as the condition is true.
 
 Syntax
-```
+```js
 while (condition) {
   // code block
 }
@@ -83,7 +83,7 @@ while (i < 10) {
 Executes at least once, even if the condition is false.
 
 Syntax
-```
+```js
 do {
   // code block
 } while (condition);
