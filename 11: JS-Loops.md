@@ -19,7 +19,7 @@ You can use a loop:
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
-The for Loop
+1. The for Loop
 The for statement creates a loop with 3 expressions:
 
 
@@ -60,7 +60,7 @@ for (let i = 0; i < 10; i++) {
 // Here i is still 5
 Declaring with let inside the loop makes i scoped to that loop.
 
-The while Loop
+2. The while Loop
 Runs as long as the condition is true.
 
 Syntax
@@ -77,7 +77,7 @@ while (i < 10) {
 }
 ⚠️ If you forget to update the variable, the loop can run forever.
 
-The do...while Loop
+3. The do...while Loop
 Executes at least once, even if the condition is false.
 
 Syntax
