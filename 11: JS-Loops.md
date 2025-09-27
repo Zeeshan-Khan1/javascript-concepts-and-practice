@@ -33,7 +33,7 @@ expr2 → condition checked before each iteration
 
 expr3 → executed after every iteration
 ```
-Example
+### Example
 ```
 for (let i = 0; i < 5; i++) {
   console.log("The number is " + i);
@@ -44,7 +44,7 @@ expr2: condition (i < 5)
 
 expr3: increment (i++)
 ```
-Loop Scope
+### Loop Scope
 ```js
 let i = 5;
 
@@ -64,7 +64,7 @@ Declaring with let inside the loop makes i scoped to that loop.
 ### 2. The while Loop
 Runs as long as the condition is true.
 
-Syntax
+### Syntax
 ```js
 while (condition) {
   // code block
@@ -82,7 +82,7 @@ while (i < 10) {
 ### 3. The do...while Loop
 Executes at least once, even if the condition is false.
 
-Syntax
+### Syntax
 ```js
 do {
   // code block
