@@ -13,18 +13,17 @@ Instead of writing code repeatedly:
 text += cars[0] + "<br>";
 text += cars[1] + "<br>";
 text += cars[2] + "<br>";
+
 You can use a loop:
 
-js
-Copy code
+
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
 The for Loop
 The for statement creates a loop with 3 expressions:
 
-js
-Copy code
+
 for (expr1; expr2; expr3) {
   // code block
 }
@@ -35,8 +34,7 @@ expr2 → condition checked before each iteration
 expr3 → executed after every iteration
 
 Example
-js
-Copy code
+
 for (let i = 0; i < 5; i++) {
   console.log("The number is " + i);
 }
@@ -47,16 +45,14 @@ expr2: condition (i < 5)
 expr3: increment (i++)
 
 Loop Scope
-js
-Copy code
+
 let i = 5;
 
 for (i = 0; i < 10; i++) {
   // some code
 }
 // Here i is 10
-js
-Copy code
+
 let i = 5;
 
 for (let i = 0; i < 10; i++) {
@@ -69,14 +65,12 @@ The while Loop
 Runs as long as the condition is true.
 
 Syntax
-js
-Copy code
+
 while (condition) {
   // code block
 }
 Example
-js
-Copy code
+
 let i = 0;
 while (i < 10) {
   console.log("The number is " + i);
@@ -88,14 +82,12 @@ The do...while Loop
 Executes at least once, even if the condition is false.
 
 Syntax
-js
-Copy code
+
 do {
   // code block
 } while (condition);
 Example
-js
-Copy code
+
 let i = 0;
 do {
   console.log("The number is " + i);
