@@ -94,8 +94,9 @@ do {
   console.log("The number is " + i);
   i++;
 } while (i < 10);
-✅ Use:
+:
 ```
+### ✅ Use
 - for → when you know the number of iterations.
 
 - while → when you don’t know how many times to run.
