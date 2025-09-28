@@ -1,11 +1,12 @@
-JavaScript Strings
+# JavaScript Strings
 
-Strings in JavaScript are used for storing and manipulating text. They are written inside quotes.
+### Strings in JavaScript are used for storing and manipulating text. They are written inside quotes.
 
-Using Quotes
+### Using Quotes
 
 A string can be defined with single or double quotes:
 ```
+js
 let carName1 = "Volvo XC60";  // Double quotes
 let carName2 = 'Volvo XC60';  // Single quotes
 ```
