@@ -6,22 +6,21 @@
 
 A string can be defined with single or double quotes:
 ```
-js
 let carName1 = "Volvo XC60";  // Double quotes
 let carName2 = 'Volvo XC60';  // Single quotes
 ```
 
-✅ Both work the same.
+### ✅ Both work the same.
 
 Quotes Inside Quotes
 
 You can use quotes inside a string, as long as they don’t match the surrounding ones:
-
+```
 let answer1 = "It's alright";
 let answer2 = "He is called 'Johnny'";
 let answer3 = 'He is called "Johnny"';
-
-Template Strings (ES6+)
+```
+### Template Strings (ES6+)
 
 Template literals use backticks (` `). They allow:
 
@@ -30,25 +29,25 @@ Single and double quotes inside
 Multiline strings
 
 Variable embedding with ${}
-
+```
 let name = "Johnny";
 let text = `He's often called "Johnny"`;
 let multiLine = `The quick
 brown fox
 jumps over
 the lazy dog`;
-
-String Length
+```
+### String Length
 
 Use .length to find the number of characters:
-
+```
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = text.length;  // 26
-
-Escape Characters
+```
+### Escape Characters
 
 If you need special characters inside strings, use a backslash (\) escape:
-
+```
 Code	Result	Description
 \'	'	Single quote
 \"	"	Double quote
@@ -61,11 +60,11 @@ Examples:
 let text1 = "We are the so-called \"Vikings\" from the north.";
 let text2 = 'It\'s alright.';
 let text3 = "The character \\ is called backslash.";
-
+```
 Breaking Long Lines
 
 To improve readability:
-
+```
 document.getElementById("demo").innerHTML =
 "Hello Dolly!";
 
@@ -91,11 +90,11 @@ let y = new String("John");
 
 console.log(x == y);  // true
 console.log(x === y); // false
-
+```
 
 Comparing two string objects always returns false.
 
-✅ Quick Recap
+### ✅ Quick Recap
 
 Use quotes (' or ") for normal strings.
 
