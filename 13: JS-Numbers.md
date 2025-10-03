@@ -18,7 +18,7 @@ let y = 123e-5;  // 0.00123
 
 - No separate types like int, float, double → all are just Number.
 
-### 🧩 Breakdown of 64 bits:
+### Breakdown of 64 bits:
 
 - 52 bits → fraction (value)
 
@@ -43,7 +43,7 @@ Floating point arithmetic is not always exact:
 let x = 0.2 + 0.1;   // 0.30000000000000004
 
 
-### ✅ Fix: Multiply and divide:
+### Fix: Multiply and divide:
 ```js
 let x = (0.2 * 10 + 0.1 * 10) / 10;  // 0.3
 ```
@@ -67,7 +67,7 @@ let y = "20";
 let z = x + y;   // "1020"
 ```
 
-### ⚠️ Be careful!
+### Be careful!
 ```js
 let x = 10;
 let y = 20;
@@ -96,7 +96,7 @@ let x = 100 / "Apple";
 console.log(isNaN(x));  // true
 ```
 
-### ⚠️ Any operation with NaN → result is also NaN.
+### Any operation with NaN → result is also NaN.
 ```js
 let x = NaN;
 let y = 5;
@@ -118,7 +118,7 @@ Division by zero also gives Infinity:
 -2 / 0;  // -Infinity
 ```
 
-### ✅ typeof Infinity → "number"
+### typeof Infinity → "number"
 ```js
 Hexadecimal & Number Bases
 
@@ -133,7 +133,7 @@ let n = 32;
 n.toString(16);  // "20" (hex)
 n.toString(2);   // "100000" (binary)
 
-Numbers as Objects (⚠️ Not Recommended)
+Numbers as Objects ( Not Recommended)
 
 Numbers are normally primitive values:
 
@@ -145,7 +145,7 @@ But can also be created as objects:
 let y = new Number(123);
 ```
 
-### ⚠️ Avoid this → slower and can cause issues:
+### Avoid this → slower and can cause issues:
 ```js
 let x = 500;
 let y = new Number(500);
@@ -162,7 +162,7 @@ let b = new Number(500);
 console.log(a == b);   // false
 console.log(a === b);  // false
 ```
-### ✅ Quick Recap
+### Quick Recap
 
 All numbers in JS are 64-bit floating point.
 
@@ -174,6 +174,6 @@ Floating point may have rounding errors.
 
 NaN and Infinity are numbers too (typeof returns "number").
 
-❌ Avoid new Number() — always use number literals.
+Avoid new Number() — always use number literals.
 
-👉 Next: JavaScript Number Methods
+Next: JavaScript Number Methods
