@@ -162,7 +162,7 @@ let b = new Number(500);
 console.log(a == b);   // false
 console.log(a === b);  // false
 ```
-### Quick Recap
+### Quick Recap:
 
 All numbers in JS are 64-bit floating point.
 
