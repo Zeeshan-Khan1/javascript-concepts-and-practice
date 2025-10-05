@@ -38,141 +38,128 @@ let x = 123;
 x.toString();
 (123).toString();
 (100 + 23).toString();
+
 You can also specify a base (radix):
 
-js
-Copy code
 let x = 123;
 x.toString(2);  // Convert to binary
-💥 The toExponential() Method
+```
+### The toExponential() Method
 Returns a string with the number written in exponential notation.
-
-js
-Copy code
+```js
 let x = 9.656;
 x.toExponential(2);
 x.toExponential(4);
 x.toExponential(6);
-💰 The toFixed() Method
+```
+### The toFixed() Method
 Returns a string, rounding the number to a fixed number of decimal places.
-
-js
-Copy code
+```js
 let x = 9.656;
 x.toFixed(0);
 x.toFixed(2);
 x.toFixed(4);
 x.toFixed(6);
-💡 Useful for financial calculations.
+```
+Useful for financial calculations.
 
-✨ The toPrecision() Method
+### The toPrecision() Method
 Returns a string with a number written with a specified length.
-
-js
-Copy code
+```js
 let x = 9.656;
 x.toPrecision();
 x.toPrecision(2);
 x.toPrecision(4);
 x.toPrecision(6);
-🧮 The valueOf() Method
+```
+### The valueOf() Method
 Returns the primitive value of a number.
-
-js
-Copy code
+```js
 let x = 123;
 x.valueOf();
 (123).valueOf();
 (100 + 23).valueOf();
-🔄 Converting Variables to Numbers
+```
+### Converting Variables to Numbers
 You can convert variables into numbers using:
 
 Method	Description
-Number()	Converts argument to a number
-parseFloat()	Converts string to a floating number
-parseInt()	Converts string to an integer
+- Number()	Converts argument to a number
+- parseFloat()	Converts string to a floating number
+- parseInt()	Converts string to an integer
 
 Example
-js
-Copy code
+```js
 Number(true);
 Number(false);
 Number("10.33");
 parseInt("10 years");
 parseFloat("10.33");
+```
 If conversion fails, JavaScript returns NaN (Not a Number).
 
-🕓 Number from Dates
+### Number from Dates
 You can also convert a Date into a number (milliseconds since 1970):
-
-js
-Copy code
+```js
 Number(new Date("1970-01-01")); // 0
 Number(new Date("1970-01-02")); // 86400000
 Number(new Date("2017-09-30"));
-🧩 The parseInt() Method
+```
+### The parseInt() Method
 Parses a string and returns a whole number.
-
-js
-Copy code
+```js
 parseInt("-10");
 parseInt("-10.33");
 parseInt("10 20 30");
 parseInt("10 years");
 parseInt("years 10"); // NaN
-🧠 The parseFloat() Method
+```
+### The parseFloat() Method
 Parses a string and returns a floating-point number.
-
-js
-Copy code
+```js
 parseFloat("10");
 parseFloat("10.33");
 parseFloat("10 20 30");
 parseFloat("10 years");
 parseFloat("years 10"); // NaN
-🧱 Number Object Methods
+```
+### Number Object Methods
 Method	Description
-Number.isInteger()	Checks if the value is an integer
-Number.isNaN()	Checks if the value is NaN
-Number.isFinite()	Checks if the value is finite
-Number.isSafeInteger()	Checks if the value is a safe integer
-Number.parseFloat()	Converts string to number
-Number.parseInt()	Converts string to whole number
+- Number.isInteger()	Checks if the value is an integer
+- Number.isNaN()	Checks if the value is NaN
+- Number.isFinite()	Checks if the value is finite
+- Number.isSafeInteger()	Checks if the value is a safe integer
+- Number.parseFloat()	Converts string to number
+- Number.parseInt()	Converts string to whole number
 
-❌ Note: You cannot use x.isInteger() — it will throw an error.
+### Note: You cannot use x.isInteger() — it will throw an error.
 
-✅ Examples
+### Examples
 Number.isInteger()
-js
-Copy code
+```js
 Number.isInteger(10);   // true
 Number.isInteger(10.5); // false
 Number.isFinite()
-js
-Copy code
+
 Number.isFinite(123);     // true
 Number.isFinite(Infinity); // false
 Number.isNaN()
-js
-Copy code
+
 Number.isNaN(123);   // false
 Number.isNaN("abc"); // false
 Number.isNaN(NaN);   // true
 Number.isSafeInteger()
+```
 A safe integer can be accurately represented in JavaScript.
-
-js
-Copy code
+```js
 Number.isSafeInteger(10);                  // true
 Number.isSafeInteger(12345678901234567890); // false
 Safe range: -(2⁵³ - 1) to +(2⁵³ - 1)
-✅ Safe: 9007199254740991
-❌ Unsafe: 9007199254740992
-
-🧮 Number.parseFloat() & Number.parseInt()
+Safe: 9007199254740991
+Unsafe: 9007199254740992
+```
+### Number.parseFloat() & Number.parseInt()
 Work the same as their global counterparts:
-
-js
-Copy code
+```js
 Number.parseFloat("10.33");
 Number.parseInt("10 20 30");
