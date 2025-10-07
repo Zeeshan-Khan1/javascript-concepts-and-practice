@@ -125,7 +125,6 @@ Example 1 – Using Variable
 let x = toCelsius(77);
 let text = "The temperature is " + x + " Celsius";
 Example 2 – Using Function Directly
-js
-Copy code
+
 let text = "The temperature is " + toCelsius(77) + " Celsius";
 ```
