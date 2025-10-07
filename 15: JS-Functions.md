@@ -10,7 +10,7 @@ They allow developers to write **modular, reusable, and organized** code.
 A **function** is a block of code designed to perform a specific task.  
 Functions execute when they are **called** (or **invoked**).
 
-### 🧮 Example: Multiply Two Numbers
+### Example: Multiply Two Numbers
 
 ```js
 function myFunction(p1, p2) {
