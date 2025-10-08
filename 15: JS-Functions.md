@@ -114,7 +114,6 @@ function greet(name, age) {
   return `Hello ${name}! You are ${age} years old.`;
 }
 Example (Arguments)
-
 greet("John", 21);
 ```
 ### Functions Used as Variables
