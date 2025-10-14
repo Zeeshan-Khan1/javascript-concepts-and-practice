@@ -4,7 +4,6 @@ In JavaScript, **objects** are variables that can hold multiple values as **keyâ
 They are one of the most powerful data types and form the backbone of JavaScript programming.
 
 ---
-
 ## What is an Object?
 
 An **object** is a collection of related data and functionality â€” represented as **properties** and **methods**.
