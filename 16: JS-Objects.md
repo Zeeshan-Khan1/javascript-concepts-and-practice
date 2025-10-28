@@ -153,6 +153,7 @@ const mySelf = new Person("Johnny", "Rally", 22, "green");
 - Properties are named values.
 
 - Methods are functions stored as object properties.
+- Constructor functions create multiple objects of the same type.
 
 - Properties can hold values, functions, or even other objects.
 
