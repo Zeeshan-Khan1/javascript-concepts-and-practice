@@ -12,7 +12,6 @@ An **object** is a collection of related data and functionality — represented 
 **Methods** are actions (functions) that can be performed on the object.
 
 ---
-
 ### Example: Car Object
 
 | **Car Properties** | **Car Methods** |
