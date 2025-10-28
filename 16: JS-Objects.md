@@ -156,5 +156,5 @@ const mySelf = new Person("Johnny", "Rally", 22, "green");
 
 - Properties can hold values, functions, or even other objects.
 
-- Constructor functions create multiple objects of the same type.
+
 
